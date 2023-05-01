@@ -6,4 +6,11 @@ def main(fruits):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    n=0
+    while i<len(fruits):
+        if fruits[i]=="apple":
+            n=n+1
+        i=i+1 
+    return n
+print(main(["apple", "banana", "apple", "pear"]))
